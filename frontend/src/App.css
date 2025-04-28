@@ -1,0 +1,51 @@
+/* Selected item styling */
+.Mui-selected {
+  background-color: whitesmoke !important;
+}
+
+/* Top bar styling */
+.TopBar {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background-color: rgb(1, 1, 75);
+  color: white;
+  margin-bottom: 20px;
+}
+
+/* Form container styling */
+.FormBox {
+  display: flex;
+  flex-direction: column; /* Stack sections vertically */
+  width: 100%;
+  padding: 20px;
+  gap: 20px; /* Add spacing between sections */
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  background-color: white; /* Optional: Add a background color */
+  border-radius: 8px; /* Optional: Add rounded corners */
+}
+
+/* Individual form area styling */
+.FormArea {
+  display: flex;
+  flex-direction: column; /* Stack form elements vertically */
+  width: 100%; /* Full width for each form area */
+  padding: 10px 0;
+  box-sizing: border-box; /* Include padding and border in width */
+}
+
+/* Typography adjustments */
+h6, .MuiTypography-h6 {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+  .FormBox {
+    padding: 15px;
+  }
+  .FormArea {
+    width: 100%; /* Ensure full width on smaller screens */
+  }
+}
